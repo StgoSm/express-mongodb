@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET publication page */
+router.get('/forum/:slug', (req, res, nest) => {
+  res.render('publication', {});
+});
 module.exports = router;

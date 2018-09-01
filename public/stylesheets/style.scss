@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.header{
+    .navbar {
+        background-color: #2e2e2e !important;
+        color: white;
+    }
+    a {
+        color: white !important;
+    }
+}
